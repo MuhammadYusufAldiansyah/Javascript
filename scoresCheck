@@ -1,0 +1,18 @@
+const exam = 70
+
+if (exam >= 0 && exam <= 100) {
+    if (exam < 60 ){
+        console.log("Nilai : D")
+    } else if (exam < 70) {
+        console.log("Nilai : C")
+    } else if (exam < 80) {
+        console.log("Nilai : B")
+    } else if (exam < 90) {
+        console.log("Nilai : B+")
+    } else if (exam >= 90) {
+        console.log("Nilai : A")
+    }
+}
+else {
+    console.log("Input salah")
+}
