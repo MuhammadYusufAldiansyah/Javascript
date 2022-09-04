@@ -1,0 +1,9 @@
+let x = confirm("apakah anda ingin masuk?")
+
+if (x == true) {
+    let y = prompt("Masukkan namamu")
+    alert(`Selamat datang ${y}`)
+}
+else {
+    alert("Byee")
+}
