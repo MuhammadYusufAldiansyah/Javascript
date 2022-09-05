@@ -1,0 +1,4 @@
+let xx = 30
+
+const typedata = typeof xx
+console.log(`datamu adalah ${typedata}`)
