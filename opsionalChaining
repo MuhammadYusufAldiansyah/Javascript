@@ -1,0 +1,14 @@
+let person = {
+    address : {
+        country : "indonesia"
+    }
+}
+console.log(person?.address?.country)
+/*
+pengecekan dilakukan melalui nama variabel lebih dulu.
+jadi pengecekan dilakukan pertama ke "person", jika "person" tidak nullist
+maka selanjutnya akan mengakses "address", jika address tidak nullist maka
+selanjutnya akan mengakses "country".
+
+Jika di "person" sudah nullist maka output akan menjadi undefined
+*/
