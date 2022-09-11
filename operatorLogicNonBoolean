@@ -1,0 +1,18 @@
+/*-----------------------------OR---------------------------*/
+console.log( null || "NULL")
+/*----------------------------AND---------------------------*/
+console.log("aku" && "ganteng")
+
+/*
+OR =
+*mengecek truty terlebih dahulu di (kiri)
+*mengambil truty di (kanan) jika truty ada disebelah (kanan)
+*jika keduanya truty maka akan mengambil truty yang di (kiri)
+*jika keduanya falsy maka akan mengambil falsy di (kanan)
+
+AND =
+*mengecek falsy dari sebelah (kiri)
+*jika falsy ada di kanan maka mengambil falsy di sebelah (kanan)
+*jika keduanya falsy maka akan mengambil di sebelah (kiri)
+*jika keduanya bernilai truty maka akan mengambil di sebelah (kanan)
+*/
