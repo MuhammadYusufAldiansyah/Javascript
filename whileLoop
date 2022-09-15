@@ -1,0 +1,9 @@
+let counter = 1
+while(counter <= 10){
+    document.writeln(`<p>perulangan while ke ${counter}</p>`)
+    counter++
+}
+/*
+while adalah perulangan yang lebih sederhana daripada forLoop, jika hanya ingin melakukan
+pengkondisian saja maka lebih baik memakai whileLoop
+*/
