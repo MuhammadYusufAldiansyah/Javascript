@@ -1,0 +1,17 @@
+
+let counter = 1
+
+do{
+    document.writeln(`<p>Perulangan do while loop ke ${counter}</p>`)
+    counter++
+}
+while(counter <= 10)
+
+/*
+doWhileLoop adalah perulangan yang mirip dengan whileLoop, memiliki perbedaan ketika pengecekan kondisi, 
+whileLoop melakukan pengecekan kondisi terlebih dahulu sebelum perulangan, doWhileLoop melakukan perulangan terlebih dahulu
+setelah itu baru mengecek kondisi. doWhileLoop minimal melakukan perulangan terlebih dahulu sebelum mengecek kondisi.
+
+whileLoop = melakukan kondisi setelah itu perulangan
+doWhileLoop = melakukan perulangan setelah itu kondisi (walaupun kondisi bernilai false)
+*/
