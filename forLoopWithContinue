@@ -1,0 +1,14 @@
+for (let i = 1; i <= 10;i++){
+    if(i % 2 === 0){
+        continue
+        /*
+        jika hasilnya adalah genap (if === true)
+        maka operasi akan mengulang kembali ke atas
+        dan memulai kembali ke post statement(i++)
+        setelah itu akan mengulang kondisi kembali.
+        jika false maka continue akan melanjutkan
+        ke arah console.log...
+        */
+    }
+    console.log(`<p>perulangan Ganjil ke- ${i}</p>`)
+}
