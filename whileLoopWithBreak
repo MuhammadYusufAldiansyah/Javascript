@@ -1,0 +1,8 @@
+let i = 1
+while(true){
+    console.log(`<p>perulangan ke ${i}</p>`)
+    i++
+    if(i >= 10){
+        break
+    }
+}
