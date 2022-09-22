@@ -8,6 +8,10 @@ for (let i = 1; i <= 10;i++){
         setelah itu akan mengulang kondisi kembali.
         jika false maka continue akan melanjutkan
         ke arah console.log...
+        %:hasil bagi
+        
+        continue mengartikan bahwa bawahnya tidak akan
+        di eksekusi maka kembali ke atas
         */
     }
     console.log(`<p>perulangan Ganjil ke- ${i}</p>`)
