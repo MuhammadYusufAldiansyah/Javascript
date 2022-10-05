@@ -1,0 +1,7 @@
+/*
+post-increment: a = i++ itu sama seperti a = i; i = i + 1;.
+pre-increment: a = ++i itu sama seperti i = 1 + i; a = i;.
+Pada post-increment, variabel a akan mengambil nilai i lalu variabel i ditambah 1. 
+Sedangkan pada pre-increment variabel i akan ditambah satu terlebihdahulu, 
+kemudian diisi ke variabel a.
+*/
