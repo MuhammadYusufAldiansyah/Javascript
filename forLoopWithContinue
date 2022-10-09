@@ -1,7 +1,6 @@
 for (let i = 1; i <= 10;i++){
     if(i % 2 === 0){
-        continue
-        
+        continue  
     }
     console.log(`<p>perulangan Ganjil ke- ${i}</p>`)
 }
@@ -17,4 +16,4 @@ for (let i = 1; i <= 10;i++){
         
         continue mengartikan bahwa bawahnya tidak akan
         di eksekusi maka kembali ke atas
-        */
+*/
