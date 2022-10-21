@@ -1,0 +1,9 @@
+let person = {
+    firstName: "Muhammad",
+    middleName: "Yusuf",
+    lastName: "Aldiansyah"
+}
+
+for (const me in person) {
+    console.log(`${me} : ${person[me]}`)
+}
