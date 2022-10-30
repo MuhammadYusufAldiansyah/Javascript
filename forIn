@@ -1,6 +1,8 @@
 /* forIn biasanya digunakan untuk mengiterasi sebuah objek, sebenarnya bisa untuk array tetapi lebih bagus digunakan untuk objek (array bisa menggunakan forOf). 
 forIn akan mengiterasi property sebuah objek */ 
 
+//forIn : mengiterasi property dari objek dan index dari array
+//forOf : mengiterasi value dari array dan dapat mengiterasi array
 
 let person = {
     firstName: "Muhammad",
