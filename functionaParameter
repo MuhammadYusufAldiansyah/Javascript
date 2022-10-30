@@ -1,0 +1,14 @@
+/*
+ *function parameter dapat mengirim informasi yang ingin dipanggil.
+ *perlu menambahkan parameter / argument di function yang sudah dibuat sebelumnya,
+ dengan cara ditempatkan dalam () di sebuah deklarasi method / function.
+ jika parameter lebih satu, maka harus dipisah menggunakan koma/",".
+ sebuah parameter boleh dimasukkan tipe data number/int,string,boolean.
+*/
+
+function hello(firstName, lastName){
+    console.log(`Hello ${firstName} ${lastName}, Welcome to the javascript!`)
+}
+
+hello("Muhammad", "Yusuf") 
+//jika cuma 1 input, maka parameter terakhir akan undefined, harus menggunakan ifElse
