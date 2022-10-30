@@ -1,0 +1,11 @@
+/*
+ Fuction/method adalah sebuah mini program yang digunakan untuk mempersingkat
+ program ketika sering dipanggil
+*/
+
+function myName(){
+    console.log("welcome to the javascript")
+}
+
+//memanggil function
+myName()
