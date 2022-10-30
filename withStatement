@@ -1,0 +1,18 @@
+/*
+ withStatement sebuah fitur untuk menurunkan sebuah scope data
+ (sekarang tidak disarankan untuk digunakan karena dapat terjadi ambigu jika
+    property dari objek sama dengan nama variable lain)
+*/
+
+
+const person = {
+    firstName : "Muhammad",
+    middleName : "Yusuf",
+    lastName : "Aldiansyan"
+}
+
+with (person){
+    console.log(firstName)
+    console.log(middleName)
+    console.log(lastName)
+}
