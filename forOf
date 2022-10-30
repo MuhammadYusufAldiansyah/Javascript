@@ -1,0 +1,16 @@
+/* forOf akan mengiterasi sebuah value dari array, dan forOf bisa melakukan iterable
+pada array dan string*/
+
+//forIn : mengiterasi property dari objek dan index dari array
+//forOf : mengiterasi value dari array dan dapat mengiterasi array
+
+let me = ["Muhammad","Yusuf","aldiansyah"];
+
+for (let aku of me){
+    console.log(aku)
+}
+
+let my = "Muhammad Yusuf Aldiansyah";
+for (let x of my){
+    console.log(x) /*space akan ikut terbaca*/
+}
