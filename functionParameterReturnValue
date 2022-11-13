@@ -1,0 +1,34 @@
+let inputName = "Yusuf"
+
+function sayHello(hello){
+    const say = `Good Morning ${hello}`
+    return say
+}
+
+document.writeln(sayHello(inputName))
+document.write("<br>")
+
+//------------------------------------------------------
+
+function x(){
+    return "Selamat Pagi Dunia"
+}
+
+document.writeln(x())
+document.write("<br>")
+
+//-------------------------------------------------------
+const username = ["valachi", "w1bu", "yvalachi"];
+let inputFromUser = "valachii"
+
+function check(userCheck){
+    for(const usernameCheck of username){
+        if(userCheck === usernameCheck){
+            return true
+        }
+    }
+        return false
+}
+document.writeln(check(inputFromUser))
+
+//-------------------------------------------
